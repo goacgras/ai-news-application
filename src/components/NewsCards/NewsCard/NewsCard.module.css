@@ -1,0 +1,30 @@
+.Media {
+    height: 250px;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 10px solid white;
+}
+
+.Details {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.Title {
+    padding: 0 16px;
+}
+
+.CardActions {
+    padding: 0 16px 8px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ActiveCard {
+    border-bottom: 10px solid #22289a;
+}
